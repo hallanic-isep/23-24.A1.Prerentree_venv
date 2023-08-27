@@ -10,7 +10,7 @@ for i in range(5):
     try:
         essai = int(input(f"essai {i+1} : "))
     except:
-        print("Valeur incorrecte...")
+        print("Erreur...")
         essai = 0 # pour éviter l'erreur si aucune saisie est valide...
         continue
 
